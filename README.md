@@ -1,7 +1,7 @@
-<h1 align="center">Hi there 👋, I'm Shalvi</h1>
+<h1 align="center">Hi there 👋, I'm Shalvi Srivastava</h1>
 
 <p align="center">
-  🚀 B.Tech CSE Student | MERN Stack Learner | Java DSA Explorer
+  🚀 B.Tech CSE Student | MERN Developer | Java DSA Explorer
 </p>
 
 ---
@@ -20,7 +20,7 @@
 
 ### 🛠️ Tech I'm Exploring:
 - **Languages**: Java, JavaScript, HTML, CSS
-- **Frontend**: React.js
+- **Frontend**: React.js, Bootsrap
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Tools**: Git, GitHub, VS Code
@@ -29,8 +29,7 @@
 
 ### 📈 Current Goals:
 - ✅ Strengthen Java DSA through daily practice
-- ✅ Build React projects for internships
-- ✅ Apply for paid internships by year-end
+- ✅ Build React projects 
 - ✅ Keep growing — one step at a time 💪
 
 ---
