@@ -13,7 +13,7 @@ export default function Contact() {
             <div className="contact-card p-4 rounded">
               <form>
                 <div className="mb-3">
-                  <label htmlFor="name" className="form-label text-dark">
+                  <label htmlFor="name" className="form-label ">
                     Name
                   </label>
                   <input
@@ -26,7 +26,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mb-3">
-                  <label htmlFor="email" className="form-label text-dark">
+                  <label htmlFor="email" className="form-label ">
                     Email
                   </label>
                   <input
@@ -39,7 +39,7 @@ export default function Contact() {
                 </div>
 
                 <div className="mb-3">
-                  <label htmlFor="message" className="form-label text-dark">
+                  <label htmlFor="message" className="form-label ">
                     Message
                   </label>
                   <textarea
