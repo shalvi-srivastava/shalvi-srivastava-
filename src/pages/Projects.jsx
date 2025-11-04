@@ -9,7 +9,7 @@ export default function Projects() {
         "A stock trading platform inspired by Zerodha. Built using React, Node.js, Express, and MongoDB with authentication and live chart .",
       tech: ["React", "Node.js", "Express", "MongoDB"],
       image: "./zenvest.png",
-      github: "#",
+      github: "https://github.com/shalvi-srivastava/ZenVest",
       live: "#",
     },
     {
@@ -18,13 +18,13 @@ export default function Projects() {
         "A simple full-stack CRUD app demonstrating user data management with RESTful API and responsive design.",
       tech: ["React", "Express", "MongoDB", "Bootstrap"],
       image: "./wanderlust.png",
-      github: "#",
-      live: "#",
+      github: "https://github.com/shalvi-srivastava/Wanderlust",
+      live: "https://wanderlust-fkrb.onrender.com/",
     },
   ];
 
   return (
-    <section className="projects-section py-5" id="projects" >
+    <section className="projects-section py-5" id="projects">
       <div className="container">
         <h2 className="text-center fw-bold mb-5 section-title">Projects</h2>
         <div className="row g-4">
@@ -37,8 +37,11 @@ export default function Projects() {
                   alt={project.title}
                 />
                 <div className="card-body d-flex flex-column p-3">
-                  <h5 className="fw-bold" >{project.title}</h5>
-                  <p className="text-light flex-grow-1 " style={{fontSize:"1rem"}}>
+                  <h5 className="fw-bold">{project.title}</h5>
+                  <p
+                    className="text-light flex-grow-1 "
+                    style={{ fontSize: "1rem" }}
+                  >
                     {project.description}
                   </p>
                   <div className="mb-3">

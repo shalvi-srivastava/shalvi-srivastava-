@@ -74,7 +74,7 @@ export default function Contact() {
               </p>
               <div className="social-icons mt-3">
                 <a
-                  href="#"
+                  href="https://github.com/shalvi-srivastava"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
@@ -82,7 +82,7 @@ export default function Contact() {
                   <i className="bi bi-github"></i>
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/shalvi-srivastava-3b4867295"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="social-icon"
