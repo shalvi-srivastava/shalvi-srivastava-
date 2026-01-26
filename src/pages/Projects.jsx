@@ -2,26 +2,36 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Projects() {
-  const projects = [
-    {
-      title: "ZenVest",
-      description:
-        "A stock trading platform inspired by Zerodha. Built using React, Node.js, Express, and MongoDB with authentication and live chart .",
-      tech: ["React", "Node.js", "Express", "MongoDB"],
-      image: "./zenvest.png",
-      github: "https://github.com/shalvi-srivastava/ZenVest",
-      live: "#",
-    },
-    {
-      title: "CRUD App",
-      description:
-        "A simple full-stack CRUD app demonstrating user data management with RESTful API and responsive design.",
-      tech: ["React", "Express", "MongoDB", "Bootstrap"],
-      image: "./wanderlust.png",
-      github: "https://github.com/shalvi-srivastava/Wanderlust",
-      live: "https://wanderlust-fkrb.onrender.com/",
-    },
-  ];
+ const projects = [
+  {
+    title: "PeerMeet",
+    description:
+      "A real-time video meeting platform built with React and WebRTC, featuring audio/video calls, instant chat using Socket.IO, and secure room-based communication.",
+    tech: ["React", "WebRTC", "Socket.IO", "Node.js", "Express"],
+    image: "./peermeet.png",
+    github: "https://github.com/shalvi-srivastava/PeerMeet",
+    live: "https://peermeetfrontend-q67z.onrender.com/",
+  },
+  {
+    title: "ZenVest",
+    description:
+      "A stock trading platform built using the MERN stack, featuring user authentication, dashboard views, and real-time stock charts for tracking investments.",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    image: "./zenvest.png",
+    github: "https://github.com/shalvi-srivastava/ZenVest",
+    live: "https://zenvest.up.railway.app/",
+  },
+  {
+    title: "CRUD App",
+    description:
+      "A full-stack CRUD application built with React and Express, featuring RESTful APIs, user data management, and a clean responsive interface.",
+    tech: ["React", "Express", "MongoDB", "Bootstrap"],
+    image: "./wanderlust.png",
+    github: "https://github.com/shalvi-srivastava/Wanderlust",
+    live: "https://wanderlust-fkrb.onrender.com/",
+  },
+];
+
 
   return (
     <section className="projects-section py-5" id="projects">

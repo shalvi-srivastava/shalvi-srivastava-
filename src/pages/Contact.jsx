@@ -63,15 +63,7 @@ export default function Contact() {
             </div>
 
             <div className="text-center mt-4">
-              <p className="text-dark mb-1">
-                Or reach me directly at{" "}
-                <a
-                  href="mailto:srivastavashalvi33@gmail.com"
-                  className="email-link"
-                >
-                  srivastavashalvi33@gmail.com
-                </a>
-              </p>
+              
               <div className="social-icons mt-3">
                 <a
                   href="https://github.com/shalvi-srivastava"
@@ -90,12 +82,12 @@ export default function Contact() {
                   <i className="bi bi-linkedin"></i>
                 </a>
                 <a
-                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="social-icon"
+                  className="social-icon email-link"
+                  href="mailto:srivastavashalvi33@gmail.com"
                 >
-                  <i className="bi bi-twitter-x"></i>
+                  <i className="bi bi-envelope"></i>
                 </a>
               </div>
             </div>

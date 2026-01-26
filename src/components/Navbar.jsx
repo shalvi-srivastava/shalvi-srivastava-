@@ -1,53 +1,55 @@
-import { NavLink } from "react-router-dom";
-
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg border-bottom">
-      <div className="container p-2 ">
-        <NavLink className="navbar-brand fw-bold fs-4" to="/">
-          Shalvi Srivastava<span >.</span>
-        </NavLink>
+    <nav
+      id="mainNavbar"
+      className="navbar navbar-expand-lg border-bottom fixed-top "
+    >
+      <div className="container p-2">
+        <a className="navbar-brand fw-bold fs-4" href="#home">
+          Shalvi Srivastava<span className="text-primary">.</span>
+        </a>
 
         <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul
+            className="navbar-nav ms-auto"
+            onClick={(e) => {
+              if (window.innerWidth < 992) {
+                const navbar = document.getElementById(
+                  "navbarSupportedContent",
+                );
+                navbar?.classList.remove("show");
+              }
+            }}
+          >
             <li className="nav-item">
-              <NavLink className="nav-link" to="/">
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/about">
+              <a className="nav-link" href="#about">
                 About
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/skills">
+              <a className="nav-link" href="#skills">
                 Skills
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/projects">
+              <a className="nav-link" href="#projects">
                 Projects
-              </NavLink>
+              </a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">
+              <a className="nav-link" href="#contact">
                 Contact
-              </NavLink>
+              </a>
             </li>
-            
           </ul>
         </div>
       </div>

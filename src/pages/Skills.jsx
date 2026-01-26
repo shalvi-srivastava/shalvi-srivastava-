@@ -29,7 +29,7 @@ export default function Skills() {
     },
     {
       name: "Express",
-      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg",
     },
     {
       name: "MongoDB",
