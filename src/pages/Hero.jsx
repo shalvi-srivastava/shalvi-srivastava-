@@ -19,10 +19,10 @@ export default function Hero() {
           experiences.
         </p>
         <div className="text-start">
-          <a href="/projects" className="btn btn-outline-dark btn-md me-2">
+          <a href="#projects" className="btn btn-outline-dark btn-md me-2">
             View Projects
           </a>
-          <a href="/contact" className="btn btn-warning btn-md">
+          <a href="#contact" className="btn btn-warning btn-md">
             Contact Me
           </a>
         </div>
